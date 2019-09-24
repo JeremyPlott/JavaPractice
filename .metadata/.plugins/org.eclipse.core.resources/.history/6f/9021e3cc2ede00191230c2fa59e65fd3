@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class HelloWorldApp {
+
+	public static void main(String[] args) {
+		System.out.println("Hello world");
+		// TODO Auto-generated method stub
+		
+		StringBuilder sb = new StringBuilder("Tricia");
+		sb.append(" M ");
+		sb.append("Good");
+		System.out.println(sb);
+
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter first name: ");
+		String firstName = sc.next();
+		System.out.println(firstName);
+		
+		System.out.println("Enter age: ");
+		int age = sc.nextInt();
+		System.out.println("Age: " + age);
+		
+		while (age > 0) {
+			System.out.println("Age is:" + age);
+			age--;
+		}
+		
+		sc.close();
+	}
+
+}
