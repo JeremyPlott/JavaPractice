@@ -2653,3 +2653,141 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-25 10:10:27.032
 !MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.qgASawad => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-25 11:12:00.579
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-25 11:12:00.585
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@c10f7a8[org.springframework.tooling.boot.ls:1.11.0.201909171347(id=632)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-25 11:12:00.592
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-25 11:12:17.370
+!MESSAGE Boot LS startup time from start to initialized: 16768ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-25 11:12:17.413
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.LnVFpwfnisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-25 11:12:17.419
+!MESSAGE subscribing to classpath changes: sts4.classpath.LnVFpwfn isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-25 11:12:17.424
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-25 11:12:17.430
+!MESSAGE subsribers = {sts4.classpath.LnVFpwfn=Send Classpath Notifications(5578)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-25 11:12:17.436
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-25 11:12:17.444
+!MESSAGE project jdbc_bmdb ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-25 11:12:17.449
+!MESSAGE Preparing classpath changed notification jdbc_bmdb
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-25 11:12:17.455
+!MESSAGE project HelloWorld ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-25 11:12:17.460
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-25 11:12:17.464
+!MESSAGE project HelloWorld SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-25 11:12:17.470
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-25 11:12:17.475
+!MESSAGE project JavaPractice12.2 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-25 11:12:17.481
+!MESSAGE buffering callback sts4.classpath.LnVFpwfn jdbc_bmdb false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-25 11:12:17.486
+!MESSAGE project JavaPractice12.2 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-25 11:12:17.491
+!MESSAGE executing callback sts4.classpath.LnVFpwfn 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-25 11:12:17.496
+!MESSAGE project JavaPractice2.2 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-25 11:12:17.503
+!MESSAGE project JavaPractice2.2 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-25 11:12:17.510
+!MESSAGE project JavaPractice2.3 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-25 11:12:17.518
+!MESSAGE project JavaPractice2.3 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-25 11:12:17.526
+!MESSAGE project JavaPractice5.3 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-25 11:12:17.532
+!MESSAGE project JavaPractice5.3 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-25 11:12:17.541
+!MESSAGE project LoopandSwitch ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-25 11:12:17.549
+!MESSAGE project LoopandSwitch SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-25 11:12:17.556
+!MESSAGE project MethodsApp ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-25 11:12:17.563
+!MESSAGE project MethodsApp SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-25 11:12:17.570
+!MESSAGE project ch12_Collections ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-25 11:12:17.575
+!MESSAGE project ch12_Collections SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-25 11:12:17.581
+!MESSAGE project product_manager ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-25 11:12:17.588
+!MESSAGE project product_manager SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-25 11:12:17.594
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-25 11:12:17.601
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.LnVFpwfn => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-25 11:12:17.608
+!MESSAGE executing callback sts4.classpath.LnVFpwfn SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-25 12:10:09.568
+!MESSAGE Preparing classpath changed notification jdbc_bmdb
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-25 12:10:09.574
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-25 12:10:09.583
+!MESSAGE classpath=20 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-25 12:10:09.592
+!MESSAGE buffering callback sts4.classpath.LnVFpwfn jdbc_bmdb false 20
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-25 12:10:09.597
+!MESSAGE executing callback sts4.classpath.LnVFpwfn 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-25 12:10:09.616
+!MESSAGE executing callback sts4.classpath.LnVFpwfn SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-25 13:50:36.534
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.LnVFpwfn
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-25 13:50:36.547
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.LnVFpwfn
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-25 13:50:36.558
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-25 13:50:36.566
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.LnVFpwfn => OK
